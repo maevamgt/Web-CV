@@ -1,0 +1,302 @@
+/*HOME*/
+.box {
+    min-height: 100vh;
+}
+
+.background-home {
+    position: relative;
+    background: url("images/parallax4.JPG") top center no-repeat fixed;
+    background-size: cover;
+}
+
+.box-home {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.style-home {
+    position: relative;
+    margin-top: 5%;
+}
+
+#nom-home {
+
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#desc-home {
+    color: rgba(255, 255, 255, .5);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+
+}
+
+/*SECTIONS*/
+
+/*STYLES DE MISE EN PAGE*/
+
+.style {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*espace fin section (Education, Internship, Skill & Job)*/
+.style-bottom {
+    padding-bottom: 40px;
+}
+
+/*Style tab/div (Education, Internship & Job)*/
+.tab-top {
+    margin-top: 20px;
+}
+
+.tab-border {
+    border-left: 1px solid #dcdcdc;
+    margin-top: 15px;
+}
+
+/* ICONES (Profil & Job)*/
+
+.icon {
+    border: 1px solid #dcdcdc;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.icon i {
+    line-height: 50px;
+}
+
+/*TEXTES*/
+
+/*YEAR (Education, Internship & Job)*/
+.year {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Media Diplome & Company (Education, Internship & Job)*/
+.diplome, .company {
+    color: #b4b4b4;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .diplome, .company {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 767px) {
+    .diplome, .company {
+        font-size: 8px;
+    }
+}
+
+/*Media Ecole & Job (Education, Internship & Job)*/
+.ecole, .job {
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .ecole, .job {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 767px) {
+    .ecole, .job {
+        font-size: 14px;
+    }
+}
+
+/*Media Desc (Education, Internship & Job)*/
+.desc {
+    padding-left: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .desc {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 767px) {
+    .desc {
+        font-size: 12px;
+    }
+}
+
+/*BLANC*/
+
+.title-box-white {
+    color: black;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    margin-top: 50px;
+}
+
+/*Media image background (Education, Internship & Skill)*/
+@media (max-width: 768px) {
+    .eq-height1 {
+        height: 20em;
+    }
+}
+
+@media (min-width: 767px) {
+    .eq-height0 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.picture-box {
+    background: url("images/parallax.JPG") center no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+/*NOIR*/
+
+.background-black {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.title-box-black {
+    color: #ffffff;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff;
+    margin-top: 50px;
+}
+
+.white-font {
+    color: #ffffff;
+}
+
+/* PROFILE */
+
+.txt-profile {
+    margin-top: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .txt-profile {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 767px) {
+    .txt-profile {
+        font-size: 12px;
+    }
+}
+/*JOBS*/
+
+.style-jobs {
+    margin-top: 40px;
+}
+
+.txt-jobs {
+    margin-top: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .txt-jobs {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 767px) {
+    .txt-jobs {
+        font-size: 12px;
+    }
+}
+
+/*SKILLS*/
+
+.progress-color {
+    background-color: black !important;
+}
+
+.picture-box-skills {
+    background: url("images/parallax1.jpg") center no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+.txt-skill {
+    color: #494949;
+    letter-spacing: 2px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .txt-skill {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 767px) {
+    .txt-skill {
+        font-size: 14px;
+    }
+}
+/*INTEREST*/
+
+.circle {
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+}
+
+.circle i {
+    line-height: 80px;
+}
+
+.txt-interest {
+    color: #494949;
+}
