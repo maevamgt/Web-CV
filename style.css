@@ -212,13 +212,14 @@
 
 .txt-profile {
     margin-top: 15px;
+    font-size: 1.2em;
     color: #ffffff;
     letter-spacing: 1px;
     font-family: 'Muli', Arial, sans-serif;
     text-align: center;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .txt-profile {
         font-size: 18px;
     }
@@ -228,7 +229,7 @@
     .txt-profile {
         font-size: 12px;
     }
-}
+}*/
 /*JOBS*/
 
 .style-jobs {
