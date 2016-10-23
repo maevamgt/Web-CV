@@ -207,7 +207,7 @@ html, body {
 }
 @media (max-width: 767px) {
     .picture-box {
-        background: url("images/parallax.1.jpg") center no-repeat fixed;
+        background: url("images/parallax4.1.jpg") center no-repeat fixed;
         background-size: 100% 100%;
     }
 }
