@@ -173,18 +173,6 @@ body{
         font-size: 12px;
     }
 }
-/*
-@media only screen and (min-device-width: 320px) and (max-device-width: 749px){
-    .desc{
-        font-size: 250%;
-    }
-}
-
-@media screen and (min-width: 750px) and (max-width: 991px){
-    .desc{
-        font-size: 150%;
-    }
-}*/
 
 /*BLANC*/
 .title-box-white {
@@ -243,14 +231,14 @@ body{
 }
 .txt-profile {
     margin-top: 15px;
-    font-size: 1.2em;
+    /*font-size: 1.2em;*/
     color: #ffffff;
     letter-spacing: 1px;
     font-family: 'Muli', Arial, sans-serif;
     text-align: center;
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     .txt-profile {
         font-size: 18px;
     }
@@ -260,7 +248,7 @@ body{
     .txt-profile {
         font-size: 12px;
     }
-}*/
+}
 /*JOBS*/
 .style-jobs {
     margin-top: 40px;
