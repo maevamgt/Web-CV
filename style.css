@@ -62,6 +62,10 @@ html, body {
 
 }
 
+#border-home{
+    border-bottom: 1px solid #dcdcdc;
+}
+
 /*SECTIONS*/
 
 /*STYLES DE MISE EN PAGE*/
@@ -165,7 +169,7 @@ html, body {
 
 @media (max-width: 768px) {
     .desc {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
