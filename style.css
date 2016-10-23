@@ -309,6 +309,8 @@ html, body {
     height: 130px;
     width: 130px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .circle i {
