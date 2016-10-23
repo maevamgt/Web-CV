@@ -127,13 +127,13 @@ html, body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .diplome, .company {
         font-size: 18px;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .diplome, .company {
         font-size: 12px;
     }
@@ -147,13 +147,13 @@ html, body {
     text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .ecole, .job, .title-profile{
         font-size: 20px;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .ecole, .job, .title-profile {
         font-size: 14px;
     }
@@ -167,13 +167,13 @@ html, body {
     font-family: 'Muli', Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .desc {
         font-size: 14px;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .ecole, .job {
         font-size: 12px;
     }
@@ -191,13 +191,13 @@ html, body {
 }
 
 /*Media image background (Education, Internship & Skill)*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .eq-height1 {
         height: 20em;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .eq-height0 {
         display: -webkit-box;
         display: -webkit-flex;
@@ -242,13 +242,13 @@ html, body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .txt-profile {
         font-size: 18px;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .txt-profile {
         font-size: 12px;
     }
@@ -265,13 +265,13 @@ html, body {
     font-family: 'Muli', Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .txt-jobs {
         font-size: 18px;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .txt-jobs {
         font-size: 12px;
     }
@@ -294,13 +294,13 @@ html, body {
     text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .txt-skill {
         font-size: 20px;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .txt-skill {
         font-size: 14px;
     }
