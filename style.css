@@ -193,13 +193,13 @@ html, body {
 }
 
 /*Media image background (Education, Internship & Skill)*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .eq-height1 {
         height: 20em;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .eq-height0 {
         display: -webkit-box;
         display: -webkit-flex;
