@@ -288,13 +288,13 @@ html, body {
 
 @media (max-width: 767px) {
     .txt-jobs {
-        font-size: 18px;
+        font-size: 11px;
     }
 }
 
 @media (min-width: 768px) {
     .txt-jobs {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
