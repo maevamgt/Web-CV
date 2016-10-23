@@ -205,10 +205,18 @@ html, body {
         display: flex;
     }
 }
+@media (max-width: 767px) {
+    .picture-box {
+        background: url("images/parallax.1.jpg") center no-repeat fixed;
+        background-size: 100% 100%;
+    }
+}
 
-.picture-box {
-    background: url("images/parallax.JPG") center no-repeat fixed;
-    background-size: 100% 100%;
+@media (min-width: 768px) {
+    .picture-box {
+        background: url("images/parallax.JPG") center no-repeat fixed;
+        background-size: 100% 100%;
+    }
 }
 
 /*NOIR*/
