@@ -1,3 +1,20 @@
+body{
+    /*font-size: 13px;*/
+}
+/*NAV*/
+.txt-nav {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.style-nav {
+    min-height: 0px !important;
+}
+
 /*HOME*/
 .box {
     min-height: 100vh;
@@ -51,7 +68,7 @@
     margin-top: 10px;
 }
 
-/*espace fin section (Education, Internship, Skill & Job)*/
+/*espace fin section (Profil, Education, Internship, Skill & Job)*/
 .style-bottom {
     padding-bottom: 40px;
 }
@@ -96,12 +113,12 @@
 /*Media Diplome & Company (Education, Internship & Job)*/
 .diplome, .company {
     color: #b4b4b4;
-    font-weight: 100;
     text-align: center;
     letter-spacing: 1px;
     font-family: 'Muli', Arial, sans-serif;
     text-transform: uppercase;
 }
+
 
 @media (max-width: 768px) {
     .diplome, .company {
@@ -111,7 +128,7 @@
 
 @media (min-width: 767px) {
     .diplome, .company {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
@@ -150,13 +167,24 @@
 }
 
 @media (min-width: 767px) {
-    .desc {
+    .ecole, .job {
         font-size: 12px;
     }
 }
+/*
+@media only screen and (min-device-width: 320px) and (max-device-width: 749px){
+    .desc{
+        font-size: 250%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 991px){
+    .desc{
+        font-size: 150%;
+    }
+}*/
 
 /*BLANC*/
-
 .title-box-white {
     color: black;
     font-size: 26px;
@@ -189,7 +217,6 @@
 }
 
 /*NOIR*/
-
 .background-black {
     background-color: rgba(0, 0, 0, .8);
 }
@@ -209,7 +236,6 @@
 }
 
 /* PROFILE */
-
 .txt-profile {
     margin-top: 15px;
     font-size: 1.2em;
@@ -231,7 +257,6 @@
     }
 }*/
 /*JOBS*/
-
 .style-jobs {
     margin-top: 40px;
 }
@@ -256,7 +281,6 @@
 }
 
 /*SKILLS*/
-
 .progress-color {
     background-color: black !important;
 }
@@ -284,8 +308,8 @@
         font-size: 14px;
     }
 }
-/*INTEREST*/
 
+/*INTEREST*/
 .circle {
     border-radius: 50%;
     background-color: #ffffff;
@@ -301,3 +325,4 @@
 .txt-interest {
     color: #494949;
 }
+
