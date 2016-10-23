@@ -2,6 +2,7 @@ html, body {
     width: auto !important;
     overflow-x: hidden !important;
 }
+
 /*NAV*/
 .txt-nav {
     font-size: 13px;
@@ -16,8 +17,8 @@ html, body {
     min-height: 0px !important;
 }
 
-.a-nav{
-    color: #494949!important;
+.a-nav {
+    color: #494949 !important;
 }
 
 /*HOME*/
@@ -64,7 +65,7 @@ html, body {
 
 }
 
-#border-home{
+#border-home {
     border-bottom: 1px solid #dcdcdc;
 }
 
@@ -128,7 +129,6 @@ html, body {
     text-align: center;
 }
 
-
 @media (max-width: 767px) {
     .diplome, .company {
         font-size: 18px;
@@ -150,7 +150,7 @@ html, body {
 }
 
 @media (max-width: 767px) {
-    .ecole, .job, .title-profile{
+    .ecole, .job, .title-profile {
         font-size: 20px;
     }
 }
@@ -243,8 +243,8 @@ html, body {
 }
 
 /* PROFILE */
-.a-profil{
-    color: white!important;
+.a-profil {
+    color: white !important;
 }
 
 .txt-profile {
@@ -296,9 +296,18 @@ html, body {
     background-color: black !important;
 }
 
-.picture-box-skills {
-    background: url("images/parallax1.jpg") center no-repeat fixed;
-    background-size: 100% 100%;
+@media (max-width: 767px) {
+    .picture-box-skills {
+        background: url("images/parallax1.jpg") center no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .picture-box-skills {
+        background: url("images/parallax1.jpg") center no-repeat fixed;
+        background-size: 100% 100%;
+    }
 }
 
 .txt-skill {
@@ -339,7 +348,7 @@ html, body {
     color: #494949;
 }
 
-.img-interest{
+.img-interest {
     height: 50px;
     width: 50px;
 }
