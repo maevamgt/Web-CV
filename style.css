@@ -1,6 +1,4 @@
-body{
-    /*font-size: 13px;*/
-}
+
 /*NAV*/
 .txt-nav {
     font-size: 13px;
@@ -317,5 +315,10 @@ body{
 
 .txt-interest {
     color: #494949;
+}
+
+.img-interest{
+    height: 50px;
+    width: 50px;
 }
 
