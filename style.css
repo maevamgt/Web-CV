@@ -1,4 +1,7 @@
-
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+}
 /*NAV*/
 .txt-nav {
     font-size: 13px;
@@ -113,6 +116,9 @@
 /*Media Diplome & Company (Education, Internship & Job)*/
 .diplome, .company {
     color: #b4b4b4;
+    letter-spacing: 1px;
+    font-family: 'Muli', Arial, sans-serif;
+    text-transform: uppercase;
     text-align: center;
 }
 
