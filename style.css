@@ -191,13 +191,13 @@ html, body {
 }
 
 /*Media image background (Education, Internship & Skill)*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .eq-height1 {
         height: 20em;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .eq-height0 {
         display: -webkit-box;
         display: -webkit-flex;
@@ -206,14 +206,14 @@ html, body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .picture-box {
         background: url("images/parallax.1.jpg") center no-repeat fixed;
         background-size: 100% 100%;
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .picture-box {
         background: url("images/parallax.jpg") center no-repeat fixed;
         background-size: 100% 100%;
