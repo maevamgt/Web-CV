@@ -196,13 +196,15 @@ body{
 }
 
 /*Media image background (Education, Internship & Skill)*/
-@media (max-width: 768px) {
+/*@media (max-width: 768px) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 749px){
     .eq-height1 {
         height: 20em;
     }
 }
 
-@media (min-width: 767px) {
+/*@media (min-width: 767px) */
+@media (min-width: 750px){
     .eq-height0 {
         display: -webkit-box;
         display: -webkit-flex;
