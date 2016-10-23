@@ -15,9 +15,11 @@ html, body {
 .style-nav {
     min-height: 0px !important;
 }
+
 .a-nav{
     color: #494949!important;
 }
+
 /*HOME*/
 .box {
     min-height: 100vh;
@@ -205,9 +207,11 @@ html, body {
         display: flex;
     }
 }
+
+/*Media picture-box background*/
 @media (max-width: 767px) {
     .picture-box {
-        background: url("images/parallax.1.jpg") center no-repeat fixed;
+        background: url("images/parallax.1.jpg") center no-repeat;
         background-size: 100% 100%;
     }
 }
@@ -242,6 +246,7 @@ html, body {
 .a-profil{
     color: white!important;
 }
+
 .txt-profile {
     margin-top: 15px;
     color: #ffffff;
@@ -261,6 +266,7 @@ html, body {
         font-size: 12px;
     }
 }
+
 /*JOBS*/
 .style-jobs {
     margin-top: 40px;
