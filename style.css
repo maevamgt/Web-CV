@@ -14,7 +14,9 @@ body{
 .style-nav {
     min-height: 0px !important;
 }
-
+.a-nav{
+    color: #494949!important;
+}
 /*HOME*/
 .box {
     min-height: 100vh;
@@ -196,15 +198,13 @@ body{
 }
 
 /*Media image background (Education, Internship & Skill)*/
-/*@media (max-width: 768px) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 749px){
+@media (max-width: 768px) {
     .eq-height1 {
         height: 20em;
     }
 }
 
-/*@media (min-width: 767px) */
-@media (min-width: 750px){
+@media (min-width: 767px) {
     .eq-height0 {
         display: -webkit-box;
         display: -webkit-flex;
@@ -238,6 +238,9 @@ body{
 }
 
 /* PROFILE */
+.a-profil{
+    color: white!important;
+}
 .txt-profile {
     margin-top: 15px;
     font-size: 1.2em;
